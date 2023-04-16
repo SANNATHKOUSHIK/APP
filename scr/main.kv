@@ -1,0 +1,247 @@
+
+
+<MainScreen>:
+    FitImage:
+        source:"img4 (2).png"
+    MDBoxLayout:
+        orientation: "vertical"
+        MDTopAppBar:
+            pos_hint: {"top": 1}
+            elevation: 6
+            md_bg_color: "#039F3C"
+            title: "KISAAN"
+            halign: "center"
+            left_action_items: [["R.png"]]
+            right_action_items:[["flower",lambda x: app.change_to_settings()],["help",lambda x :app.change_to_help()]]
+                                
+                
+        MDLabel:
+            text:"Your\nHome\nFarming\nGuide"
+            pos_hint:{"top":1,"left":1}
+            font_style:"H3"
+            theme_text_color: "Custom"
+            text_color: [.01,.62,.23,1]        
+        MDBoxLayout:
+            orientation: "vertical"
+            size_hint_x:0.6
+            size_hint_y:0.6
+            pos_hint: {"center_x":0.5,"center_y":0.7}
+            padding_x: "100dp"
+            # padding_y :"100dp"
+            spacing: dp(80)
+            MDFillRoundFlatIconButton:
+                md_bg_color:"#039F3C"
+                icon:"camera"
+                text:"CAMERA"
+                elivation:4
+                pos_hint:{"center_x":0.5,"center_y":0.6}
+                on_release: root.manager.current = "Camera"
+            MDFillRoundFlatIconButton:
+                icon: "robot"
+                text:"VRIKSH"
+                md_bg_color:"#039F3C"
+                elivation:4
+                pos_hint:{"center_x":0.5,"center_y":0.5}
+                on_release: 
+                    root.manager.current = "Chatbot"
+                    app.bot()
+
+            
+                    
+
+<CameraScreen>:
+    camera:camera
+    # bottom_sheet:bottom_sheet
+    MDBoxLayout:
+        orientation: "vertical"
+        MDTopAppBar:
+            pos_hint: {"top": 1}
+            elevation: 4
+            md_bg_color: "#039F3C"
+            title: "KISAN"
+            halign: "center"
+            left_action_items: [["back.png", lambda x: app.change_to_main()]]
+        Camera:
+            id: camera
+            resolution: (800,1200)
+            play: True
+
+        MDBottomAppBar:
+            MDTopAppBar:
+                md_bg_bottom_color: [.01,.62,.23,1]
+                icon_color: self.md_bg_bottom_color
+                icon: "camera"
+                type: "bottom"
+                on_action_button: 
+                    app.camera()
+        # MDBottomSheet:
+        #     auto_positioning: False
+        #     id : bottom_sheet
+        #     bg_color: "#039F3C"
+        #     type: "standard"
+        #     max_opening_height: self.height
+        #     default_opening_height: self.max_opening_height
+        #     adaptive_height: True
+        #     MDBottomSheetDragHandle:
+
+        #         MDBottomSheetDragHandleTitle:
+        #             text: "Treatment"
+        #             font_style: "H6"
+        #             pos_hint: {"center_y": .5}
+
+        #         MDBottomSheetDragHandleButton:
+        #             icon: "close"
+        #             drag_handle_color: "#ffffff"
+        #     MDBottomSheetContent:
+        #         padding: "16dp"
+        #         MDLabel:
+
+        #             text: "Content"
+        #             halign: "center"
+        #             font_style: "H5"
+        #             adaptive_height: True
+        
+
+
+<ChatBotScreen>:
+    chats: chats
+    text_input: text_input
+    MDBoxLayout:
+        orientation: "vertical"
+        MDTopAppBar:
+            pos_hint: {"top": 1}
+            elevation: 4
+            md_bg_color: "#039F3C"
+            title: "VRIKSH"
+            left_action_items: [["back.png", lambda x: app.change_to_main()]]
+        MDScrollView:
+            size_hint_y:.77
+            pos_hint:{"X":0,"y":.116}
+            do_scroll_x: False
+            do_scroll_y: True
+            MDBoxLayout:
+                id: chats
+                orientation:"vertical"
+                size: (root.width,root.height)
+                height : self.minimum_height
+                size_hint:None,None
+                pos_hint:{"top":10}
+                cols:1
+                spacing:5
+        MDFloatLayout:
+            md_bg_color:245/255,245/255,245/255,1
+            size_hint_y: .11
+            MDFloatLayout:
+                size_hint: .8,.75
+                pos_hint:{"center_x":.43,"center_y":.5}
+                canvas:
+                    Color:
+                        rgb: 238/5,238/5,238/5,1
+                    RoundedRectangle: 
+                        size: self.size
+                        pos: self.pos
+                        radius: [23,23,23,23]
+                TextInput:  
+                    id:text_input
+                    hint_text: "Ask something..."
+                    size_hint:1,None  
+                    pos_hint:{"center_x":.5,"center_y":.5}
+                    font_size:"18sp"
+                    cursor_width:"2sp"
+                    height:self.minimum_height
+                    multiline:True
+                    cursor_color:.01,.63,.23,1
+                    background_color:0,0,0,0
+                    padding:15
+                MDIconButton:
+                    icon:"send"
+                    pos_hint:{"center_x":1.05,"center_y":.5}
+                    user_font_size:"12sp"
+                    md_bg_color:.01,.63,.23,1
+                    padding_x: 5
+                    theme_text_color:"Custom"
+                    text_color:1,1,1,1
+                    on_release:app.send()
+
+<SettingsScreen>:
+    MDBoxLayout:
+        orientation: "vertical"
+        MDTopAppBar:
+            pos_hint: {"top": 1}
+            elevation: 4
+            md_bg_color: "#039F3C"
+            title: "Settings"
+            text_align: "center"
+            left_action_items: [["back.png", lambda x: app.change_to_main()]]
+        MDScrollView:
+            TwoLineAvatarIconListItem:
+                text: "Notifications"
+                secondary_text: "Allow Notifications"
+                RightSwitch:
+                    active:False
+                    on_active: app.remainder(*args)
+                IconLeftWidget:
+                    icon: "bell-alert-outline"
+                
+              
+<About>:
+    MDBoxLayout:
+        orientation: "vertical"
+        MDTopAppBar:
+            pos_hint: {"top": 1}
+            elevation: 4
+            md_bg_color: "#039F3C"
+            title: "KISAN"
+            halign: "center"
+            left_action_items: [["back.png", lambda x: app.change_to_main()]]
+        MDScrollView:
+            TwoLineAvatarIconListItem:
+                text: "Version"
+                secondary_text: "1.0.0"
+                IconLeftWidget:
+                    icon: "information-outline"
+
+<command>
+    size_hint_y:None
+    pos_hint:{"right":.98}
+    height: self.texture_size[1]
+    padding:12,10
+    theme_text_color: "Custom"
+    text_color:1,1,1,1
+    canvas.before:
+        Color:
+            rgb: .01,.63,.23,1
+        RoundedRectangle: 
+            size: self.width,self.height
+            pos: self.pos
+            radius: [23,23,0,23]
+<Response>
+    size_hint_y:None
+    pos_hint:{"x":.02}
+    height: self.texture_size[1]
+    padding:12,10
+    canvas.before:
+        Color:
+            rgb: 209/255, 201/255, 201/255,1
+        RoundedRectangle: 
+            size: self.width,self.height
+            pos: self.pos
+            radius: [23,23,23,0]
+
+
+<Treatment>:
+    text:text
+    MDBoxLayout:
+        orientation: "vertical"
+        MDTopAppBar:
+            pos_hint: {"top": 1}
+            elevation: 4
+            md_bg_color: "#039F3C"
+            title: "KISAN"
+            halign: "center"
+            left_action_items: [["back.png", lambda x: app.change_to_camera()]]
+        MDLabel:
+            id:text
+            halign:"left"
+            text_color: .01,.63,.23,1
+            

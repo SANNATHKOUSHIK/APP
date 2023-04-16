@@ -1,0 +1,147 @@
+{"intents":[
+    {"tag":"dry leaves",
+    "patterns":["my leaves are drying","my plant leaves are dying","my leaves are falling"],
+    "responses":["water your plant regularly","your plant needs water","your plant is thirsty!"]
+},
+   
+   {"tag":"yellow leaves",
+    "patterns":["why are my leaves turning yellow","why does my plant have yellow leaves","why are my indoor plants leaves turning yellow"],
+    "responses":["your plant needs sufficient water","your plant needs some light","your plant is affected by pests"]
+} ,
+{
+    "tag":"black spots",
+    "patterns":["what do black spots on leaves mean","how to cure black spots on leaves","black spots are visible on my plant leaves why?"],
+    "responses":["avoid wet leaves to control spreading","water your plants close to the soil","use appropriate antifungal medicines"]
+},
+{
+    "tag":"holes on leaves",
+    "patterns":["there are lot of holes on leaves what does it mean","what to do for insect eating leaves","what does holes on leaves mean","tiny holes on leaves damaging the plant, what should I do"],
+    "responses":["be aware,some caterpillars are feeding on your plant,so use 'Bacillus thuringiensis subspecies kurstaki (Btk)'","your leaves are chewed by some caterpillars,to prevent it use 'Bacillus thuringiensis subspecies kurstaki (Btk)' ","your plant is affected by catterpillars,inorder to save your plant better use 'Bacillus thuringiensis subspecies kurstaki (Btk)' insectiside"]
+} ,
+{
+    "tag":"white powder",
+    "patterns":["what does white patches on leaves mean","there is a typical white powder appearance on leaves,what should I do ","what is the reason for dropping of premature leaves"],
+    "responses":["your leaves can get rid of these white patches by using 'baking soda'","simple solution to cure this disease is baking soda","your plants can be prevented from powdery mildew by using baking soda"]
+},
+{
+    "tag":"orange spots",
+    "patterns":["there are some orange spores on leaves,what does it mean","there are some pale-leaf spots under the leaf,what should I do to get rid of those spots",
+            "how to prevent my plant from orange spots which are dozen on a single leaf"],
+    "responses":["To get rid of those spores you can use ' Mancozeb' as a protectant and 'myclobutanil' as an eradicant ","weekly dusting of 'sulfer' can prevent your plant from orange spots and pale-leaf spots"]
+},
+{
+    "tag":"name",
+    "patterns":["what is your name and what are your uses ","what is your name and how can you help us","what should i call you and what can you do for us "],
+    "responses":["hi! my name is vriksh,which means a tree.My name is a hint for you to know what will I do for you.I help you in protecting your environment .Now you might be confused  about what is the relation between my name and environment . here I am to help you to grow plants healthily ,that is I can predict your plant diseases by scanning their leavesand gives you a solution to save your plant from that respective disease.By growing plants you can save your environment"]
+},
+{
+    "tag":"yellow spots",
+    "patterns":["what does yellow spots on my leaves mean","there some yellow spots on leaves,what does it mean"],
+    "responses":["Apply sulfur sprays or copper-based fungicides weekly at first sign of disease to prevent its spread","Chlorothalonil and mancozeb are the main protectant fungicides for yellow spots"]
+},
+{
+    "tag":"wilting",
+    "patterns":["my plant leaves are wilting at premature age,what is the reason","my plant leaves are becoming weak day by day,what should I do","how to prevent my leaves from wilting","What is most likely to cause wilting in plants?","What keeps plants from wilting?"],
+    "responses":[" wilting is due to a lack of water at the roots, carefully re-water the soil or compost","The most practical way of overcoming plant wilt is to provide adequate soil moisture and consider the plant type and environmental conditions it is in (hot, cold, etc.).","One method of leaf preservation is to put them into a glycerin/water solution"]
+},
+{
+    "tag":"white bugs",
+    "patterns":["How do I get rid of white bugs on my plants?","What is the fastest way to get rid of mealybugs?","Are white bugs on leaves harmful?","How do I protect my plants from mealybugs? ","How do I permanently get rid of white bugs?"],
+    "responses":["A solution of soapy water containing potassium salts is also an effective way of dealing with soft-bodied insects in garden like the mealy bug"," On small infestations on houseplants, a 70% or less solution of isopropyl (rubbing) alcohol in water may be dabbed directly on mealybugs with a cotton swab to kill them or remove them","soap sprays and oil sprays can also help control mealybugs"]
+},
+{
+    "tag":"brown spots",
+    "patterns":["Why Are My Plant's Leaf Tips Brown?","Should I remove leaves with brown spots?","How to get rid of brown leaf spots","How to treat brown spots on leaves","should I cut the brown spots off?"],
+    "responses":["brown spots are caused by a fungus, usually as a result of overwatering your plant.","Many cases of brown patch can be cured simply by improving air circulation in the lawn","our top recommendation to control leaf spot is Patch Pro"]
+},
+{
+    "tag":"spores",
+    "patterns":["how to get rid of spores on leaves","how to prevent leaves from brown spores","there are some brown spores under the leaf,what does it mean","what does spores on leaves mean"],
+    "responses":["Hydrogen peroxide kills mold spore on contact by breaking down proteins and DNA","sodium hypochlorite is the best disinfectant for spores"]
+},
+{
+    "tag":"lumps",
+    "patterns":["What are these ugly bumps on my tree's leaves?","What causes lumps on plant leaves?","What to do with leaf lumps?","How to Deal With Leaf Galls (Bumps on Your Tree's Leaves)"],
+    "responses":["Daconil 2787 or Mancozeb fungicide can prevent leaves from lumps","confidor® Guard (Imidacloprid) and Samurai® (Clothiandin) are systemic soil-applied insecticides registered for the control of citrus gall wasp in commercial orchards"]
+},
+{
+    "tag":"pale leaves",
+    "patterns":["Why do plants have pale leaves?","Can pale leaves ?","why are my palnt leaves turning pale"],
+    "responses":["Nitrogen converts pale leaves into green leaves","plant requires some sun light"]
+},
+{
+    "tag":"rose",
+    "patterns":["hoe to grow  healthy rose plants","Which method is used for rose farming","Which is the best season to plant roses in India?","Which soil is best for rose plant?"],
+    "responses":["Rose plant is cultivated by stem cutting. This is an asexual method of reproduction. Good stems are selected and dipped in auxin hormone that promotes root formation. These stems are then planted in a medium to obtain plants that are genetically identical to the parent plant.","Prepare the Planting Hole,Dig a hole that is slightly wider but equally in depth to the rose's root ball,Prepare the Rose,Plant the Rose,Apply Water and Mulch,Care for Your Rose."]
+},
+{
+    "tag":"marigold",
+    "patterns":["how to grow marigold plants","What is the planting method of marigold?","How long do marigolds take to grow?"],
+    "responses":["They can be grown in patio pots or planters, or even in the ground as a landscape or garden border. Marigolds will need to be planted in an area that receives full sun, and well draining soil","Seeds can be sown any time of the year; but the best time to start Marigolds by seeds is between May-July. Sow seeds in Nursery beds, seedbeds, or in seedling trays under semi shade. Fine sandy soil or coco-peat is a good sowing medium."]
+},
+{
+    "tag":"hibiscus",
+    "patterns":["How to grow Hibiscus Plants?","Where is the best place to put a hibiscus plant","What is the secrets to growing hibiscus indoors?"],
+    "responses":["Plant Hibiscus bulbs 3 inches deep and cover the hole 2 inches high with soil, Keep away the soil digging pests like squirrels by placing orange wedges around the bottom of the plant,Do not plant Hibiscus in clay pots as these containers gradually turn the soil alkaline by dispensing minute particle, Help the Hibiscus start the reason off right with a balanced fertilizer"]
+},
+{
+    "tag":"jasmine",
+    "patterns":["how to grow jasmine plants","What is the planting method of jasmine? ","How to Plant, Grow, and Care for Jasmine Flowers","When to plant jasmine","Soils that jasmine thrive in"],
+    "responses":["Plant jasmine bushes any time between June and November.Jasmine will grow well in full sun to partial shaded areas. Summer flowering jasmine does better in a sunny spot, while other varieties, such as winter jasmine, like a more shaded area. Jasmine needs well drained but moist, moderately fertile sandy loamy soil. Dig a hole for the jasmine that is just deep enough so the plant will rest at the same level in the ground as it was when it was in the pot. It doesnt need to be planted in a deep hole."]
+},
+{
+    "tag":"tomato",
+    "patterns":["how to grow organic tomatos at home","Which season is best for tomato plantation","can we grow healthy tomatos at home"],
+    "responses":["Start with large clean pots. Mix together a well-draining type of soil and compost(if available). Choose the healthiest plants to transplant outdoors. Pinch off the lowest branches of the plant to promote healthier tomato plant with a healthy stem with a few branches at the top."]
+},
+{
+    "tag":"brinjal",
+    "patterns":["How to grow brinjal plants at home","what are the best ways to grow brinjal vegetable at home","what are the suitable conditions to grow brinjal at home"],
+    "responses":["They need fertile, well-drained soil. They can be grown from seed sown directly in the ground, but because they take a long time to fruit, speed up the process by growing them in trays four weeks before planting time, then plant the seeds when the ground warms up. Seeds will take about 2-3 weeks to germinate"]
+},
+{
+    "tag":"coriander",
+    "patterns":["how to grow coriander at home","Can we grow coriander leaves at home? ","What is the best way to grow coriander at home? "],
+    "responses":["You can grow coriander in full sun and well drained., Sow the coriander seeds about half to one inch deep in the soil, Space the seeds at a gap of approximately 6 inches, Press the soil over the seeds and cover with the half inch layer of fine mulch."]
+},
+{
+    "tag":"okra/lady finger",
+    "patterns":["how to grow lady finger/okra","can I grow lady finger at home","what are the suitable conditions to grow lady finger at home"],
+    "responses":["To grow Okra, sow the seeds 7-8 inches apart and ½ inches deep, If you're planning to grow okra indoors and transplanting them later, be sure to space them 9 to 10 inches apart, handle the seedlings very carefully as they're delicate and can be easily damaged,Dig a hole deep enough to hold the entire root balls."]
+},
+{
+    "tag":"curry leaves",
+    "patterns":["Can I plant curry leaves at home?","How to grow healthy curry leaves in pots ","What is the best way to grow curry leaf plant?","How do you grow curry leaves from stems at home?","how to grow curry leaves"],
+    "responses":["You could fill the pots with a mixture of soil, sand, and cow dung or use store-bought organic soil mix. Plant the curry leaves sapling and do not forget to water them every day. The pot should be placed in a spot that receives enough sunlight."]
+},
+{
+    "tag":"chilli",
+    "patterns":["How do you grow chillies in your house?","How long does chilli plant take to grow","How to Grow Green Chilli Plant from Seeds","how to grow chillies"],
+    "responses":["Fill the seed tray with soil and spread the chilli seeds on it. Add only a thin layer of soil above the seeds and then sprinkle some water. Keep the seeds warm and moist and they will start germinating in a week or two."]
+},
+{
+    "tag":"guava",
+    "patterns":["Can we plant guava tree at home?","What is the best way to plant guava?","How And When To Plant Guava Seeds","how to grow guava"],
+    "responses":["Cover the guava seed with just a small amount of seed-starter mix. Place the guava plant in pot in a warm place above 65 degrees Fahrenheit, and keep it moist by misting it whenever the top of the soil surface feels dry. Germination of seed will take two to eight weeks"]
+},
+{
+    "tag":"lemon",
+    "patterns":[" How to grow lemon plant at home","How long do lemons take to grow?","How to Grow and Care for an Indoor Lemon","how to grow lemon plant"],
+    "responses":["Step 1: Moisten the soil, so it is completely moist, and then fill the planting pot about an inch below the edge. Step 2: Cut open your Lemon and then remove a seed. The seeds should stay moist when buried. Step 3: Place it about half an inch below the center of the pot, and then cover the top with a light water spray."]
+},
+{
+    "tag":" bottle gourd",
+    "patterns":["How is bottle gourd planted?","What is the best way to grow bottle gourd","what are the suitable conditions to grow bottle gourd","how to grow bottle gourd?"],
+    "responses":["Bottle gourd should be grown in open and sunny locations. Top dress the plant with a thick layer of coco peat and well-rotted manure in equal parts. Repeat this 2-3 times during the growing season. Bottle gourd plant requires plenty of watering for growth."]
+},
+{
+    "tag":"bitter gourd",
+    "patterns":["How to grow bitter gourd at home","What is the sowing method of bitter gourd","How do you grow bitter gourd from seed at home","how to grow bitter gourd"],
+    "responses":["bitter gourds prefer full sun and rich well-drained soil that is rich in organic material. Sow the seeds outdoors after all danger of frost has passed and the weather is warm. Sow seeds 1-2 inches deep in groups of 4 seeds, spacing in groups 5 feet apart in rows spaced 8 feet apart"]
+},
+{
+    "tag":"mango",
+    "patterns":["How do you grow a mango tree at home? ","what are the methods to grow mango at home","how to grow mango tree"],
+    "responses":["The best way to grow mangoes is to plant them in pots filled with potting soil. When planting, be careful not to damage the roots. Water the tree regularly, and fertilize once a month. After 2 months, transplant the seedlings into larger containers."]
+}
+]}
