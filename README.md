@@ -1,15 +1,15 @@
-# KISAN
+# KISAAN
 ## Documentation
 
-Kisan is designed to accuratley detect crop diseases within seconds. Kisan detects problem in real time and shows accurate treatment solutions. Here is the best home farming app.
+Kisaan is designed to accuratley detect crop diseases within seconds. Kisaan detects problem in real time and shows accurate treatment solutions. Here is the best home farming app.
 
-kisan is a user friendly app that helps your plant to grow disease free. You can easily find the solution for your plant and get suggestions for healthy growth. kisan helps you to make homemade fertilizers.
+kisaan is a user friendly app that helps your plant to grow disease free. You can easily find the solution for your plant and get suggestions for healthy growth. kisaan helps you to make homemade fertilizers.
 
 ![main screen](https://user-images.githubusercontent.com/118742334/232313445-07133bb5-cbb1-4ce8-a471-ba16a5e8f816.png)
 
 
 ### Features
-KISAN trained in deep CNN with many layers to predict the diseases with high accuracy. It can also provide the solutions for insects and pathogens. Kisan was trained over 3 globally identified crop diseases(blackspots,cankerpowdery mildew). Kisan takes probabilities for the diseases to find the interlinked causes for the disease so that the solutions cures the plant quicker.
+KISAAN trained in deep CNN with many layers to predict the diseases with high accuracy. It can also provide the solutions for insects and pathogens. Kisan was trained over 3 globally identified crop diseases(blackspots,cankerpowdery mildew). Kisan takes probabilities for the diseases to find the interlinked causes for the disease so that the solutions cures the plant quicker. Kisaan gives you notifications evrey day to water your plant.
 
 ![Disease Detection](https://bitrefine.group/images/1920x870/damaged_leaves_1920x870.jpg)
 
