@@ -8,10 +8,13 @@ kisan is a user friendly app that helps your plant to grow disease free. You can
 KISAN trained in deep CNN with many layers to predict the diseases with high accuracy. It can also provide the solutions for insects and pathogens. Kisan was trained over 10 globally identified crop diseases(anthracnose,blackspots,blight,canker,downy mildew,fusarium wilt,mosaic,powdery mildew,rust,sooty mold,verticillium wilt). Kisan takes probabilities for the diseases to find the interlinked causes for the disease so that the solutions cures the plant quicker.
 
 ![Disease Detection](https://bitrefine.group/images/1920x870/damaged_leaves_1920x870.jpg)
-### VRIKSH
+### VRIKSH CHATBOT
 Vriskh is an integrated chat bot. you can ask the solution for your problem to vriskh, he will help you with a solution. He can guide you how to grow plants like rose ,jasmine,marigold etc and some domestic plants like brinjal,bittergourd,bottlegourd etc.
 
-### Technologies used
+### Version
+1.0.0
+
+#### Technologies used
 * python
 * kivy
 * tenserflow/keras
@@ -50,8 +53,6 @@ buildozer [documnentation](https://kivy.org/doc/stable/guide/packaging-android.h
 
 You can get buildozer at [https://github.com/kivy/buildozer](https://github.com/kivy/buildozer)
 
-### Version
-1.0.0
 
 # Team
 
