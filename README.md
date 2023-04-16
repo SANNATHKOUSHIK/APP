@@ -20,6 +20,21 @@ Vriskh is an integrated chat bot. you can ask the solution for your problem to v
 * tenserflow/keras
 * opencv
 
+
+#### Graphs
+
+
+
+
+![test1](https://user-images.githubusercontent.com/118742334/232312729-a5d1e473-4916-440d-9f52-bfeda635a9af.png)
+
+
+
+
+
+
+
+
 To install the modules
 ```
 pip install kivy
