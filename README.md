@@ -30,7 +30,7 @@ Vriskh is an integrated chat bot. you can ask the solution for your problem to v
 
 ![version](https://user-images.githubusercontent.com/118742334/232314237-e3b65522-205c-4c99-880a-b08e512a31f5.png)
 
-
+Kisaan and will be integrated to water pumps and activates them every day in particular times as per the crop selected. This update will be available in future versions. 
 #### Technologies used
 * python
 * kivy
